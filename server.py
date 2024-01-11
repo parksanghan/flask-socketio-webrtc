@@ -13,6 +13,8 @@ socketio.init_app(
     engineio_logger=True,  # 엔진 IO 로거 활성화
     admin_sid="admin",  # 관리자 인증을 위한 sid
     admin_password="admin"  # 관리자 인증을 위한 비밀번호
+    
+    
 )
 #사용자가 저장될 변수 
 users_in_room = {}
